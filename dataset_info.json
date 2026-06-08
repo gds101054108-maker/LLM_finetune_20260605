@@ -1,0 +1,22 @@
+{
+  "intent_recognition_train": {
+    "file_name": "intent_train.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "strict": true
+  },
+  "intent_recognition_test": {
+    "file_name": "intent_test.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "strict": true
+  }
+}
